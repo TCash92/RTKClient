@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+		<string>location</string>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>RTK Client needs Bluetooth to connect to RTK receivers for centimeter-level positioning accuracy.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>RTK Client requires location access for position monitoring and RTK base station region triggering.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>RTK Client needs location access for positioning display and accuracy calculations.</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>bluetooth-le</string>
+		<string>location-services</string>
+	</array>
+</dict>
+</plist>
